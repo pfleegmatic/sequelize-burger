@@ -1,6 +1,25 @@
 // first we need to require the sequelize package
 var Sequelize = require('sequelize');
 
+//============================
+// var mysql = require ('mysql');
+
+// if (process.env.JAWSDB_URL) {
+
+// 	connection = mysql.createConnection(process.env.JAWSDB_URL);
+// }else{
+// 	connection = mysql.createConnection({
+// 		host: 'localhost',
+// 		username: 'root',
+//     password: 'Impetus2Chaos#',
+//     database: 'burgers_db',
+// 	});
+// };
+
+// connection.connect();
+// module.exports = connection;
+//============================
+
 // then set the env variable which will be either
 // production or development based on the existence
 // of the JawsDB environment variable
